@@ -20,7 +20,7 @@ export default function About() {
           <p>En este portafolio pongo en práctica lo aprendido en Desarrollo de Aplicaciones Web Avanzado. Diseño cada página para que se pueda recorrer desde el celular, navegar con teclado y compartir con una vista previa propia.</p>
           <Link className="button dark" href="/projects">Explorar mis proyectos</Link>
         </div>
-        <Image src="/images/hero.webp" alt="Escultura digital con un lazo metálico en tonos verdes" width={760} height={455} sizes="(max-width: 690px) 93vw, 44vw" loading="lazy" />
+        <Image src="/images/gabriel-haro.webp" alt="Gabriel Haro Vargas en una plaza urbana" width={640} height={640} sizes="(max-width: 690px) 93vw, 44vw" loading="lazy" />
       </div>
       <h2 className="skills-title">Cómo trabajo</h2>
       <div className="skill-grid">{skills.map(({ icon: Icon, title, description }) => (
