@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: { default: personalInfo.name, template: `%s | ${personalInfo.name}` },
   description: personalInfo.description,
+  icons: { icon: '/marca.svg' },
   applicationName: 'Portafolio de Gabriel Haro Vargas',
   authors: [{ name: personalInfo.name, url: '/' }],
   ...(preview ? { robots: { index: false, follow: false } } : {}),

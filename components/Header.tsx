@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -17,7 +18,7 @@ export default function Header() {
     <header className="site-header">
       <div className="wrap nav-wrap">
         <Link href="/" className="brand">
-          <span className="brand-icon" aria-hidden="true">gh<span>.</span></span>
+          <Image src="/marca.svg" width={40} height={40} alt="" className="brand-icon" unoptimized />
           <span>Gabriel Haro</span>
         </Link>
         <nav aria-label="Navegación principal">
