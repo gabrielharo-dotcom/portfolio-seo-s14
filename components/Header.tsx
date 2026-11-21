@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="wrap nav-wrap">
-        <Link href="/" className="brand" aria-label="Gabriel Haro, inicio">
+        <Link href="/" className="brand">
           <span className="brand-icon" aria-hidden="true">gh<span>.</span></span>
           <span>Gabriel Haro</span>
         </Link>
